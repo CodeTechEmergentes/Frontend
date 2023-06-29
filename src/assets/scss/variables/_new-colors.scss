@@ -1,0 +1,20 @@
+/* import the necessary Bootstrap files */
+@import "../../../../node_modules/bootstrap/scss/functions";
+
+
+$important: #FF3D60 !default;
+$primary-light: #3764FF !default;
+$primary-safetech: rgb(115, 103, 240) !default;
+//
+
+$warning-light: rgb(187, 190, 152) !default;
+$theme-colors: (
+  "important": $important,
+  "primary-light": $primary-light,
+  "warning-light": $warning-light,
+   "primary-safetech": $primary-safetech,
+);
+
+@import "../../../@core/scss/core.scss";
+/* finally, import Bootstrap */
+// @import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
